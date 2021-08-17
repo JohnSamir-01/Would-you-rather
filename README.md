@@ -22,8 +22,8 @@ The project contains the following features:
 
 ### Resources used:
 I do not own any of the following resources and it has been used for educationary purposes only.
-- Udacity's starter Data.js file $(https://github.com/udacity/reactnd-project-would-you-rather-starter)
--icons used downloaded from (flaticon.com/free-icons/avatar)
+- [Udacity's starter Data.js file](https://github.com/udacity/reactnd-project-would-you-rather-starter)
+- [icons used downloaded from](flaticon.com/free-icons/avatar)
 
 
 ### MIT License

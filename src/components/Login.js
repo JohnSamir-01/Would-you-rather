@@ -47,8 +47,8 @@ export class Login extends Component {
 
             <Form.Group style={{width:330,height:350,border:'5px solid lightBlue',borderRadius:15}} controlId="formBasicSelect"   >
                 <div style={{display:'flex',justifyContent:'space-between',marginTop:100}}>
-                <Form.Label style={{marginRight:'5%',marginTop:8}}>Users: </Form.Label>
-                <Form.Control  as='select' value={this.state.value} onChange={this.handleChange} >
+                <Form.Label style={{marginRight:'5%',marginTop:8,marginLeft:8}}>Users: </Form.Label>
+                <Form.Control style={{width:300,marginRight:10}} as='select' value={this.state.value} onChange={this.handleChange} >
                 <option >Open this select menu</option>
                 {ids.map((id)=> <option key={id} value={id}>{users[id].name}</option>)}
                 </Form.Control>

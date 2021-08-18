@@ -31,8 +31,8 @@ export class NewQuestion extends Component {
 
        
         return (
-            <div style={{width:'100vw', display: 'flex',flexDirection: 'column',justifyContent: 'center', alignItems: 'center'}}>
-                <br/>
+            <div style={{width:'100vw',height:'100vh', display: 'flex',justifyContent: 'center', alignItems: 'center'}}>
+                <div  style={{width:330,height:350,border: '5px solid black', borderRadius:15,display: 'flex',flexDirection: 'column',justifyContent: 'center', alignItems: 'center'}}>
             <h3 >Add new Question ...</h3>
             <br/>
         <form onSubmit={handleSubmit}>
@@ -61,6 +61,7 @@ export class NewQuestion extends Component {
           Add Question
       </button>
     </form>
+        </div>
         </div>
         )
     }

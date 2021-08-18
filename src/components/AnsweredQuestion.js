@@ -13,7 +13,8 @@ function AnsweredQuestion(props) {
 		const optionTwoPercentage = Math.round((optionTwo.votes.length / totalVotes) * 100);
         
     return (
-        <div>
+        <div  style={{width:'100vw',height:'100vh',display:'flex',justifyContent:'space-around',alignItems:'center'}}>
+	<div  style={{width:330,height:350,border: '5px solid black', borderRadius:15}} >
         <Image
         style={{margin: 5}}
         src={require('../icons/'+avatarURL).default}
@@ -37,6 +38,7 @@ function AnsweredQuestion(props) {
         
         <button onClick={()=>{props.history.push('/')}} className="btn btn-large btn-success">Home</button>
       </div>
+	</div>
       </div>
                     
     )

@@ -2,21 +2,22 @@
 
 
 ### Project Description:
-The following project was created to test out some basic understandings of react redux. 
+The following project is for an online course runned by Udacity 
+and it was created to test out some basic understandings of react with redux. 
 
 ### How to use:
 To get started : 
-
--clone this rep
--install npm using npm install
--start the development server with `npm start`
+- clone this rep
+- install npm using npm install
+- start the development server with `npm start`
 
 ### Project Content:
 The project contains the following features:
-- Fully responsive design
-- react components and state
-- Redux store and state 
-- persist-redux 
+- Fully responsive design with css and bootstrap
+- React's controlled components
+- Redux store 
+- Persist-redux 
+
 
 
 

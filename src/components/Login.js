@@ -56,6 +56,7 @@ export class Login extends Component {
                 </Form.Control>
                 </div>
                 <Button style={{marginLeft:'40%',marginTop:'10%'}} onClick={this.handleSubmit} variant="primary" type="submit">Login!</Button>
+                 <small style={{marginLeft:'40%',marginTop:'10%',color:'darkred',letterSpacing:-0.5}}>Please Login</small>
                 </Form.Group>
                 </div>
                 

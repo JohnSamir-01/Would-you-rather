@@ -34,9 +34,8 @@ export class App extends Component {
                 <Switch>
                   <Route exact path='/' component={DashBoard} />
                   <Route exact path='/questions/:id' component={QuestionContainer} />
-                  <Route exact path='/questions/:id/answer' component={AnsweredQuestion} />
-                  <Route exact path='/leaderboard' component={LeaderBoards} />
-                  <Route exact path='/add' component={NewQuestion} /> 
+                  <Route path='/leaderboard' component={LeaderBoards} />
+                  <Route path='/add' component={NewQuestion} /> 
                   <Route component={ErrorPage} />
                 </Switch> </Fragment> }
                 </div>
